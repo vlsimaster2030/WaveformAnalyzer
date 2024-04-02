@@ -14,7 +14,11 @@ tb
 
 ## clock
 
-tb.cpu_clk 1Ghz start at 10ns to end  
+following is a list of clock signals there frequencies and duration time (start time to end time)
+
+|clock signal name| path | Frequency | Start time | End time |
+|-----------------|------|-----------|------------|----------|
+| cpu_clk         | tb   | 1Ghz      | start at 10ns | simulation end  |
 tb.mem_clk 500Mhz start at 100ns to end  
 tb.clock_gen.cpu_clk 1Ghz start at 10ns to end  
 tb.clock_gen.mem_clk 500Mhz start at 100ns to end  
