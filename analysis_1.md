@@ -1,6 +1,6 @@
 # Waveform Analysis Start
 
-## Partiotions
+## Partitions
 
 ```
 tb
